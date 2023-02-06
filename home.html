@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrapper{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 80%;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mycontent{
+            /* border: 1px solid black; */
+            padding: 0px 5px;
+            width: 100%;
+        }
+        .mygrid{
+            display: flex;
+            border: 1px solid rgba(195, 1, 1, 0.929);
+            margin-bottom: 20px;
+            /* border-top: none; */
+        }
+        .myimgg{
+            width: 25%;
+        }
+        img{
+            width: 100%;
+            padding: 5px 5px 2px 5px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body onload="get_all()">
+    <div class="wrapper" >
+        <div class="container">
+            <div class="mycontent" id="mycontent">
+                <div class="mygrid" >
+                    <!-- <div>
+                        <div>
+                            <img src="images/blog3.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <h2>Amarura</h2>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nihil repellendus omnis fugit dolores, laudantium eius molestias. Nam officia esse qui reprehenderit similique voluptates laborum velit! Natus perferendis deserunt perspiciatis.</p>
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="get_blogs.js"></script>
+</body>
+</html>
